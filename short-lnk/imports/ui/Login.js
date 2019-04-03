@@ -1,9 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class Login extends React.Component {
     render() {
       return (
-        <div>Login</div>
+        <div>
+            <h1>Login to Short Link</h1>
+            <Link to="/signup">Don't have an account?</Link>
+        </div>
       );
     }
   }

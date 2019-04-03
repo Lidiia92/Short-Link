@@ -14,9 +14,9 @@ const routes = (
   <Router>
     <Switch>
       <Route exact path="/" component={Login} />
-      <Route exact path="/signup" component={Signup} />
-      <Route exact path="/links" component={Link} />
-      <Route exact path="*" component={NotFound} />
+      <Route  path="/signup" component={Signup} />
+      <Route  path="/links" component={Link} />
+      <Route  path="*" component={NotFound} />
     </Switch>
   </Router>
 );

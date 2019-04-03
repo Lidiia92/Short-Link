@@ -1,11 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-class Signup extends React.Component {
+class Login extends React.Component {
     render() {
       return (
-        <div>Signup Page</div>
+        <div>
+            <h1>Signup to Short Link</h1>
+            <Link to="/">Have an account?</Link>
+        </div>
       );
     }
   }
 
-export default Signup;
+export default Login;
